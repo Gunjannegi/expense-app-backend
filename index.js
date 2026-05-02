@@ -33,7 +33,7 @@ app.use('/ask', aiRoutes);
 app.use('/password', passwordRoutes);
 app.use('/exports',exportRoutes);
 app.get('/test', (req, res) => {
-    res.send('Backend live testing')
+    res.send('Backend live testing now')
 })
 
 sequelize.sync().then(() => {
